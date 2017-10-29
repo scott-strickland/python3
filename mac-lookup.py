@@ -2,7 +2,8 @@
 import requests, sys
 """
 The purpose of this file is to perform a lookup of the MAC vendor based
-on the OID.  The lookup is performed using the API provided by macvendors.com.
+on the OID by passing a txt file with the MAC addresses, oe MAC per line.
+The lookup is performed using the API provided by macvendors.com.
 Written in Python 3.6.2.
 """
 
