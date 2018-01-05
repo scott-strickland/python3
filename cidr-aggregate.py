@@ -9,6 +9,10 @@ import sys
 import netaddr
 
 def get_prefix_list():
+    """
+    Read in the csv file that is passed as argument.  Iterate through rows to
+    create a list of unique CIDR range that is returned as prefix_list.
+    """
     try:
         with open(filename) as file_object:
             reader = csv.reader(file_object)
@@ -23,6 +27,9 @@ def get_prefix_list():
             print("That file doesn't exist...Please provide a valid file.")
 
 def get_cidr_range():
+    """
+    Iterate through the prefix_list to return a list of aggregated CIDR summaries.
+    """
     cidr_range = netaddr.IPSet(prefix_list)
     for cidr in cidr_range.iter_cidrs():
         print(cidr)
