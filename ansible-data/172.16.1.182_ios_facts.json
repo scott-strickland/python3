@@ -1,0 +1,166 @@
+{
+    "ansible_facts": {
+        "ansible_net_all_ipv4_addresses": [
+            "10.200.242.98", 
+            "10.254.1.250", 
+            "10.254.1.130", 
+            "172.16.1.182", 
+            "10.99.0.2", 
+            "10.200.249.189"
+        ], 
+        "ansible_net_all_ipv6_addresses": [], 
+        "ansible_net_filesystems": [
+            "flash0:"
+        ], 
+        "ansible_net_gather_subset": [
+            "hardware", 
+            "default", 
+            "interfaces"
+        ], 
+        "ansible_net_hostname": "INNSVA-R001C", 
+        "ansible_net_image": "flash0:/vios_l2-adventerprisek9-m", 
+        "ansible_net_interfaces": {
+            "GigabitEthernet0/0": {
+                "bandwidth": 1000000, 
+                "description": null, 
+                "duplex": "Auto", 
+                "ipv4": [
+                    {
+                        "address": "172.16.1.182", 
+                        "subnet": "24"
+                    }
+                ], 
+                "lineprotocol": "up (connected) ", 
+                "macaddress": "5e00.0006.0000", 
+                "mediatype": "unknown media type", 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "iGbE"
+            }, 
+            "GigabitEthernet0/1": {
+                "bandwidth": 10000000, 
+                "description": "T6/3", 
+                "duplex": "Auto", 
+                "ipv4": [
+                    {
+                        "address": "10.254.1.130", 
+                        "subnet": "30"
+                    }
+                ], 
+                "lineprotocol": "up (connected) ", 
+                "macaddress": "fa16.3eff.dae9", 
+                "mediatype": "unknown media type", 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "iGbE"
+            }, 
+            "GigabitEthernet0/2": {
+                "bandwidth": 10000000, 
+                "description": "T6/4", 
+                "duplex": "Auto", 
+                "ipv4": [
+                    {
+                        "address": "10.254.1.250", 
+                        "subnet": "30"
+                    }
+                ], 
+                "lineprotocol": "up (connected) ", 
+                "macaddress": "fa16.3e49.b51f", 
+                "mediatype": "unknown media type", 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "iGbE"
+            }, 
+            "GigabitEthernet0/3": {
+                "bandwidth": 1000000, 
+                "description": "G5/1", 
+                "duplex": "Auto", 
+                "ipv4": [], 
+                "lineprotocol": "up (connected) ", 
+                "macaddress": "fa16.3e70.3719", 
+                "mediatype": "unknown media type", 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "iGbE"
+            }, 
+            "GigabitEthernet1/0": {
+                "bandwidth": 10000000, 
+                "description": "T7/2", 
+                "duplex": "Auto", 
+                "ipv4": [], 
+                "lineprotocol": "up (connected) ", 
+                "macaddress": "fa16.3ece.5758", 
+                "mediatype": "unknown media type", 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "iGbE"
+            }, 
+            "GigabitEthernet1/1": {
+                "bandwidth": 10000000, 
+                "description": "T7/1", 
+                "duplex": "Auto", 
+                "ipv4": [
+                    {
+                        "address": "10.200.242.98", 
+                        "subnet": "30"
+                    }
+                ], 
+                "lineprotocol": "up (connected) ", 
+                "macaddress": "fa16.3e94.7be3", 
+                "mediatype": "unknown media type", 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "iGbE"
+            }, 
+            "Loopback0": {
+                "bandwidth": 8000000, 
+                "description": null, 
+                "duplex": null, 
+                "ipv4": [
+                    {
+                        "address": "10.99.0.2", 
+                        "subnet": "32"
+                    }
+                ], 
+                "lineprotocol": "up ", 
+                "macaddress": "10.99.0.2/32", 
+                "mediatype": null, 
+                "mtu": 1514, 
+                "operstatus": "up", 
+                "type": null
+            }, 
+            "Vlan5": {
+                "bandwidth": 1000000, 
+                "description": "Innsbrook PBX Room", 
+                "duplex": null, 
+                "ipv4": [
+                    {
+                        "address": "10.200.249.189", 
+                        "subnet": "30"
+                    }
+                ], 
+                "lineprotocol": "up ", 
+                "macaddress": "5e00.0006.8005", 
+                "mediatype": null, 
+                "mtu": 1500, 
+                "operstatus": "up", 
+                "type": "Ethernet SVI"
+            }
+        }, 
+        "ansible_net_memfree_mb": 492734, 
+        "ansible_net_memtotal_mb": 585964, 
+        "ansible_net_model": "IOSv () processor", 
+        "ansible_net_neighbors": {
+            "null": [
+                {
+                    "host": null, 
+                    "port": null
+                }
+            ]
+        }, 
+        "ansible_net_serialnum": "9M6WTM4L1SY", 
+        "ansible_net_version": "15.2(20170321:233949)"
+    }, 
+    "changed": false, 
+    "failed": false
+}
