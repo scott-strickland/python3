@@ -18,4 +18,4 @@ def make_new_folder(folder):
     else:
         os.mkdir(folder)
 
-make_new_folder("c:/pm/new_stuff")
+make_new_folder("new_folder")
